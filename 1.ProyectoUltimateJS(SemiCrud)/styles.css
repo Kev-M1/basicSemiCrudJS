@@ -1,0 +1,30 @@
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.25;
+  font-family: sans-serif;
+  background-color: #282c34;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%; /* Hace que las imágenes no se salgan de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+/*  */
